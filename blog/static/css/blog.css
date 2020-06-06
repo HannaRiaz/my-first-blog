@@ -1,7 +1,4 @@
-/* h1 a, h2 a {
-    color: #C25100;
-    font-family: 'Lobster';
-} */
+
 .page-header {
     background-color: #C25100;
     margin-top: 0;
@@ -16,7 +13,7 @@
     margin-left: 40px;
 }
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Franklin Gothic Medium', cursive;
 }
 .date {
     color: #828282;
@@ -39,5 +36,3 @@ h1, h2, h3, h4 {
 .post h2 a, .post h2 a:visited {
     color: #000000;
 }
-
-
