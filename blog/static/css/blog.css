@@ -1,13 +1,14 @@
 
 .page-header {
     background-color: #BC8F8F;
-    margin-top: 40px;
-    padding: 20px 20px 20px 40px;
+    margin-top: 20px;
+    padding: 20px 40px 20px 40px;
 }
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
+    padding: 0px 0px 0px 100px;
 }
 .content {
     margin-left: 40px;
@@ -15,8 +16,14 @@
 h1, h2, h3, h4 {
     font-family: 'Franklin Gothic Medium', cursive;
 }
+p {
+    font-family: 'Frank Gothic Book', cursive;
+    color: #000000;
+}
 .date {
-    color: #828282;
+    color: #708090;
+    font-size: 20px;
+    font-family: 'Dante';
 }
 .save {
     float: right;
