@@ -4,6 +4,9 @@
     margin-top: 0px;
     padding: 20px 40px 20px 40px;
 }
+.base-color {
+    background-color: #9f6060;
+}
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
     font-size: 36pt;
@@ -12,26 +15,26 @@
 }
 .title-header {
     font-size: 100pt;
-    font-family: 'Dante', ;
+    font-family: 'Dante', 'Lora';
     color: #000000;
 }
 .content {
     margin-left: 40px;
 }
-.main-background {
-    background-color: #835f5f;
+.body-background {
+    background-color: #D9BFBF;
 }
 h1, h2, h3, h4 {
     font-family: 'Franklin Gothic Medium', cursive;
 }
 p {
-    font-family: 'Frank Gothic Medium', cursive;
+    font-family: 'Franklin Gothic Medium', cursive;
     color: #000000;
 }
 .date {
     color: #708090;
     font-size: 20px;
-    font-family: 'Dante';
+    font-family: 'Dante', 'Lora';
 }
 .save {
     float: right;
