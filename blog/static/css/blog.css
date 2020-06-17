@@ -2,7 +2,7 @@
 .page-header {
     background-color: #BC8F8F;
     margin-top: 0px;
-    padding: 20px 40px 20px 40px;
+    padding: 50%;
 }
 .base-color {
     background-color: #9f6060;
@@ -11,7 +11,7 @@
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
-    padding: 0px 0px 0px 100px;
+    /* padding: 0px 0px 0px 100px; */
 }
 .title-header {
     font-size: 80px;
@@ -23,19 +23,18 @@
 }
 .body-background {
     background-color: #D9BFBF;
-    margin-right: 5px;
 }
 h1, h2, h3, h4 {
     font-family: 'Franklin Gothic Medium', cursive;
 }
 p {
-    font-family: 'Lora', cursive;
+    font-family: 'Franklin Gothic Book', cursive;
     color: #000000;
-    font-size: 32px;
+    font-size: 15px;
 }
 .date {
-    color: #1e2933;
-    font-size: 20px;
+    color: #6a7f92;
+    font-size: 18px;
     font-family: 'Dante', 'Lora';
 }
 .save {
