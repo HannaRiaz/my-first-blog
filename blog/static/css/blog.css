@@ -1,22 +1,25 @@
 
 .page-header {
     background-color: #BC8F8F;
-    margin-top: 100px;
+    margin-top: 0px;
     padding: 20px 40px 20px 40px;
 }
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
-    padding: 60px 0px 0px 100px;
+    padding: 0px 0px 0px 100px;
 }
 .title-header {
     font-size: 100pt;
-    font-family: 'Dante', 'Franklin Gothic Medium';
+    font-family: 'Dante', ;
     color: #000000;
 }
 .content {
     margin-left: 40px;
+}
+.main-background {
+    background-color: #835f5f;
 }
 h1, h2, h3, h4 {
     font-family: 'Franklin Gothic Medium', cursive;
