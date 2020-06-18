@@ -9,9 +9,9 @@
 }
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
-    font-size: 50px;
-    font-family: 'Roboto Condensed', cursive;
-    padding-left: 500px; 
+    font-size: 80px;
+    font-family: 'Lora', 'PT Serif', cursive;
+    padding-left: 200px; 
 }
 /* .title-header {
     font-size: 80px;
