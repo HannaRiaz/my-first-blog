@@ -10,22 +10,19 @@
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
     font-size: 65px;
-    font-style: 'Lora', 'PT Serif', cursive;
-    padding-left: 200px; 
+    font-family: 'Lora', 'PT Serif', cursive;
+    padding-left: 90px; 
 }
-/* .title-header {
-    font-size: 80px;
-    font-family: 'Roboto Condensed', 'Lora';
-    color: #000000; 
-}*/
+
 .content {
     margin-left: 40px;
 }
 .body-background {
     background-color: #D9BFBF;
-
+    margin-right: -25px;
 }
-h1, h2, h3, h4 {
+
+h2, h3, h4 {
     font-family: 'Franklin Gothic Medium', cursive;
 }
 p {
