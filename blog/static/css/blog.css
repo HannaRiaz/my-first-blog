@@ -11,7 +11,8 @@
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
-    padding: 0px 0px 0px 100px; 
+    /* padding: 0px 0px 0px 100px;  */
+    padding-left: 50%;
 }
 .title-header {
     font-size: 80px;
