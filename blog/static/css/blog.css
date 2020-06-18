@@ -7,13 +7,13 @@
 .base-color {
     background-color: #9f6060;
 }
-/* .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
-    padding: 0px 0px 0px 100px;  
+    /* padding: 0px 0px 0px 100px;   */
     padding-left: 100px; 
-}*/
+}
 /* .title-header {
     font-size: 80px;
     font-family: 'Roboto Condensed', 'Lora';
@@ -24,7 +24,7 @@
 }
 .body-background {
     background-color: #D9BFBF;
-    margin-right: -40px;
+
 }
 h1, h2, h3, h4 {
     font-family: 'Franklin Gothic Medium', cursive;
