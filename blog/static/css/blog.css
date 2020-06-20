@@ -1,4 +1,4 @@
-
+/* 
 .page-header {
     background-color: #BC8F8F;
     margin-top: 20px;
@@ -48,8 +48,8 @@ p {
 }
 .post h2 a, .post h2 a:visited {
     color: #000000;
-}
-/* 
+} */
+
 .page-header {
     background-color: #BC8F8F;
     margin-top: 0px;
@@ -102,5 +102,5 @@ p {
     margin-bottom: 70px;
 }
 .post h2 a, .post h2 a:visited {
-    color: #000000; */
-/* } */
+    color: #000000; 
+ }
