@@ -1,10 +1,11 @@
 
 .page-header {
     background-color: #BC8F8F;
-    /* margin-top: 0px; */
-    /* padding: 20px 40px 20px 40px; */
-    line-height: 200px;
-    height: 200px;
+    margin-top: 0px;
+    padding: 20px 40px 20px 40px;
+}
+
+.center {
     text-align: center;
 }
 .base-color {
@@ -13,7 +14,7 @@
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
     font-size: 60px;
-    padding-left: 70px; 
+    /* padding-left: 70px;  */
     /* text-align: center; */
 }
 
