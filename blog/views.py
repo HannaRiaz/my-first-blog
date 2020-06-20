@@ -50,4 +50,4 @@ def contact(request):
     return render(request, 'blog/contact.html', {})
 
 def home(request):
-    return render(request, 'blog.home.html', {})
+    return render(request, 'blog/home.html', {})
