@@ -10,7 +10,8 @@
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
     font-size: 60px;
-    padding-left: 70px; 
+    /* padding-left: 70px;  */
+    text-align: center;
 }
 
 .content {
