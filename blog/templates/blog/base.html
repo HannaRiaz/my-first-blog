@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="{% static 'css/menu.css' %}">
     </head>
     <body class="base-color">
+        {% block content %}
         <nav>
             <ul>
                 <li><a href="home">HOME</a></li>
@@ -17,6 +18,7 @@
                 <li><a href="contact">CONTACT</a></li>
             </ul>
         </nav>
+        {% endblock %}
         <div class="page-header" style="text-align:center;">
             {% if user.is.authenticated %}
                 <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
