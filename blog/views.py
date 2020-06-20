@@ -43,4 +43,8 @@ def post_edit(request, pk):
 def cv(request):
     return render(request, 'blog/cv.html', {})
 
-    
+def lifestyle(request):
+    return render(request, 'blog/lifestyle.html', {})
+
+def contact(request):
+    return render(request, 'blog/contact.html', {})
