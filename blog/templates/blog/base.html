@@ -17,7 +17,7 @@
                 <li><a href="contact">CONTACT</a></li>
             </ul>
         </nav>
-        <div class="page-header center">
+        <div class="page-header" style="text-align:center;">
             {% if user.is.authenticated %}
                 <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
             {% endif %}
