@@ -1,14 +1,9 @@
-{% extends 'blog/base.html' %}
-{% extends 'blog/contact.html' %}
-{% extends 'blog/cv.html' %}
-<!-- {% extends 'blog/lifestyle.html' %}
-{% extends 'blog/home.html' %} -->
+<!-- {% extends 'blog/base.html' %}
 
 {% block content %}
     <div class="post">
         {% if user.is.authenticated %}
-            <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></
-            span></a>
+            <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
         {% endif %}
         {% if post.published_date %}
             <div class="date">
@@ -16,6 +11,22 @@
             </div>
         {% endif %}
             
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+{% endblock %} -->
+
+
+{% extends 'blog/base.html' %}
+{% block content %}
+    <div class="post">
+        {% if post.published_date %}
+            <div class="date">
+                {{ post.published_date }}
+            </div>
+        {% endif %}
+        <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></
+span></a>
         <h2>{{ post.title }}</h2>
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
