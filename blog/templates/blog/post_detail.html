@@ -1,14 +1,10 @@
 {% extends 'blog/base.html' %}
+{% extends 'blog/contact.html' %}
+{% extends 'blog/cv.html' %}
+{% extends 'blog/lifestyle.html' %}
+{% extends 'blog/home.html' %}
 
 {% block content %}
-    <nav>
-        <ul>
-            <li><a href="home">HOME</a></li>
-            <li><a href="cv">CV</a></li>
-            <li><a href="lifestyle">LIFESTYLE</a></li>
-            <li><a href="contact">CONTACT</a></li>
-        </ul>
-    </nav>
     <div class="post">
         {% if user.is.authenticated %}
             <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></
