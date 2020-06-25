@@ -1,5 +1,19 @@
 {% load static %}
 <html>
+    <style>
+        .center_text{
+            text-align: center;
+        }
+        .hi {
+            color: #ffffff;
+        }
+        /* .img-cropped {
+            width: 300px;
+            height: 200px;
+            background-image: url(/img/cropped.jpg);
+            background-size: 100%;
+        } */
+    </style>
     <head>
         <title>Hanna Riaz</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -17,7 +31,11 @@
                 <li><a href="{% url 'contact' %}">CONTACT</a></li>
             </ul>
         </nav>
-       <h1>JUST ME</h1>
+        <div>
+            <h1 class="center_text"> <span class="hi">Hi! I'm</span> HANNA RIAZ</h1>
+            <!-- <div class="img-cropped"></div> -->
+            <img src="blog\templates\blog\cropped.jpg" alt="MY IMAGE"> 
+        </div>
         <div>THIS IS MY CV</div>
     </body>
 </html>
