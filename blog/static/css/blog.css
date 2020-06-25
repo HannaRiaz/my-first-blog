@@ -6,7 +6,8 @@
 }
 
 .base-color {
-    background-color: #9f6060;
+    /* background-color: #9f6060; */
+    background-color: #A9A9A9;
 }
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
@@ -23,10 +24,10 @@
 
 }
 h1, h2, h3, h4 {
-    font-family: 'Franklin Gothic Medium', Arial;
+    font-family: 'Franklin Gothic Medium', 'Arial', 'Calibri';
 }
 p {
-    font-family: 'Franklin Gothic Book', Arial;
+    font-family: 'Franklin Gothic Book', 'Arial', 'Calibri';
     color: #000000;
     font-size: 15px;
 }
