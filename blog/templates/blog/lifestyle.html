@@ -1,10 +1,32 @@
-{% extends 'blog/base.html' %}
-
+{% load static %}
 <html>
+    <style>
+        .img-position {
+            margin-left: 12.5%;
+        }
+    </style>
     <head>
-       <title>CV</title> 
+        <title>Hanna Riaz</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link rel="stylesheet" href="{% static 'css/menu.css' %}">
     </head>
-    <body>  
-        <div>lifestyleesssss</div>
+    <body class="base-color">  
+        <nav>
+            <ul>
+                <li><a href="{% url 'post_list' %}">HOME</a></li>
+                <li><a href="{% url 'cv' %}">CV</a></li>
+                <li><a href="{% url 'lifestyle' %}">LIFESTYLE</a></li>
+                <li><a href="{% url 'contact' %}">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div>
+            
+            <img class="img-position" src= "https://cdn.shopify.com/s/files/1/0186/9832/files/WomensHistoryMonth_Quotes-04.jpg?v=1489418729" width=75% height=100%  alt="First" />
+           
+        </div>
+
     </body>
 </html>
